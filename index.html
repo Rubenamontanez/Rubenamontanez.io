@@ -3,8 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>My Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        #main-container{
+            background-image: url("blur-close-up-code-computer-546819.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            color: white;
+        }
+
+        .site-header{
+            color: white;
+        }
+
+
+        #project{
+            background-image: url("Canva - Fresh Coffee.jpg");
+            background-size: cover;
+        }
+        #resume{
+            background-image:  url("Screen Shot.png");
+            background-size: cover;
+        }
+
+
+    </style>
+
 </head>
 <body>
-<h1>hello world</h1>
+<nav class="site-header sticky-top py-1" style="background-color: #e3f2fd;">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+<!--        <a class="py-2" href="#" aria-label="Product">-->
+<!--            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>-->
+<!--        </a>-->
+        <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">linkedin</a>
+        <a class="py-2 d-none d-md-inline-block" href="https://github.com/Rubenamontanez">Github</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">About Me</a>
+    </div>
+</nav>
+
+<!--	JUMBOTRON STARTS -->
+<div class="jumbotron jumbotron-fluid" id="main-container">
+<!--    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">-->
+        <div class="position-relative col-md-5 p-lg-5 mx-auto my-5 text-center">
+            <h1 class="display-4 font-weight-normal">Ruben Montanez</h1>
+            <p class="lead font-weight-normal">Trying to bullshit my way into a software developer job.</p>
+            <a class="btn btn-outline-secondary" href="http://www.google.com">Where I wanna work</a>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+<!--    </div>-->
+</div>
+<!-- jumbotron ends	-->
+
+<div class="row">
+    <div class="bg-dark col-12 col-md-6  text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">Projects</h2>
+        </div>
+
+        <div class="bg-light shadow-sm mx-auto" id="project" style="width: 80%; height: 500px; border-radius: 21px 21px 21px 21px;">
+            <h2 class="text-danger"> Coffee Project</h2>
+        </div>
+    </div>
+    <div class="bg-dark col-12 col-md-6 text-center text-white overflow-hidden">
+        <div class="my-3 p-3">
+            <h2 class="display-5">Resume</h2>
+        </div>
+        <div class="bg-light shadow-sm mx-auto" id="resume" style="width: 80%; height: 300px; border-radius: 21px 21px 21px 21px;">
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
